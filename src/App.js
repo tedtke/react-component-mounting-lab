@@ -11,7 +11,16 @@ class App extends Component {
 
 
   //Your code here:
-
+  
+  componentDidMount() {
+    this.handleAddTimer();
+    // componentDidMount() {
+    //   setTimeout(() => {
+    //   this.setState({
+    //   isLoading: false,
+    //   status: "Completed!"
+    //   });
+  }
 
 
 
